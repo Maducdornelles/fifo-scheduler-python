@@ -1,18 +1,26 @@
-🔗 Repositórios com implementações FIFO (FCFS):
-Python
-FCFS.py – anubha-paliwal
+# Simulação do Algoritmo de Escalonamento FIFO (First In, First Out)
+Trabalho acadêmico para a disciplina de Sistemas Operacionais, ministrada pelo professor Fernando Posser Pinheiro, na Atitus Educação.
 
-FCFS.py – abhaypai
+## Integrantes da equipe: 
+Gabriela Lenz, Gustavo Rampanelli, Isadora Aguirre, Maria Eduarda Carvalho e Pablo De Oliveira.
 
-C++
-FCFS.cpp – PratikBhure
+## Descrição do Projeto
+Este projeto simula o algoritmo de escalonamento de processos FIFO (First In, First Out), também conhecido como FCFS (First-Come, First-Served), um algoritmo simples onde o primeiro processo que chega é o primeiro a ser executado. O objetivo é calcular o tempo de execução de cada processo, considerando o tempo de espera e o tempo de turnaround, e exibir as métricas relevantes.
 
-FCFS.cpp – AyushNai
+## ESPAÇO PARA O VÍDEO YT -------------
 
-Java
-FCFS.java – harshit-dandriyal
+## ANALISE DOS RESULTADOS -------------
 
-FCFS.java – vaishnavitodi
+## Como executar o projeto:
 
+1. Clone e acesse o repositório:
+    ```bash
+    git clone https://github.com/Maducdornelles/fifo-scheduler-python.git 
+    cd fifo-scheduler-python
+    ```
+2. Rode o arquivo .py:
+    ```bash
+    python fifo.py
+    ```
 
-nome: Maria Eduarda Carvalho-1134791
+## REFERENCIAS --------------
