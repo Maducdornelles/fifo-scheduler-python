@@ -9,7 +9,62 @@ Este projeto simula o algoritmo de escalonamento de processos FIFO (First In, Fi
 
 ## ESPAÇO PARA O VÍDEO YT -------------
 
-## ANALISE DOS RESULTADOS -------------
+## ANALISE DOS RESULTADOS 
+## Contexto do Código
+
+O código implementa o algoritmo de escalonamento **FIFO (First-In, First-Out)** utilizando a linguagem Python.  
+O FIFO é um dos algoritmos de escalonamento mais simples e diretos, onde os processos são executados na ordem de chegada ao sistema, sem qualquer tipo de preempção.
+
+No código, a lista de processos contém três entradas, cada uma com o **tempo de chegada** e a **duração de execução**:
+
+- P1: Chegada = 0, Duração = 4
+- P2: Chegada = 1, Duração = 5
+- P3: Chegada = 2, Duração = 1
+
+Antes da execução, os processos são ordenados por tempo de chegada, que é uma característica essencial do FIFO.
+
+---
+
+## Análise dos Resultados Obtidos
+
+Durante a execução, o sistema calcula para cada processo:
+
+- **Tempo de Início:** Quando o processo começa a executar.
+- **Tempo de Fim:** Quando o processo termina sua execução.
+- **Tempo de Espera:** Quanto tempo o processo aguardou na fila antes de iniciar.
+- **Tempo de Turnaround:** Tempo total desde a chegada até a finalização do processo.
+
+### Resultados individuais dos processos:
+
+| Processo | Início | Fim | Tempo de Espera | Turnaround |
+|--------- | ------ | --- | --------------- | ---------- |
+| P1 | 0 | 4 | 0 | 4 |
+| P2 | 4 | 9 | 3 | 8 |
+| P3 | 9 | 10 | 7 | 8 |
+
+### Cálculos Finais:
+
+- **Tempo médio de espera:** 3.33 unidades de tempo
+- **Tempo médio de turnaround:** 6.67 unidades de tempo
+
+---
+
+## Conclusão sobre o FIFO
+
+O algoritmo FIFO garante uma execução simples e fácil de implementar, priorizando a ordem de chegada dos processos.  
+No entanto, pode gerar problemas de **injustiça para processos menores**, como observado no exemplo: o processo P3 teve que esperar bastante tempo, mesmo tendo uma duração muito curta.
+
+### Pontos positivos do FIFO:
+- Fácil implementação
+- Previsível (ordem de chegada é respeitada)
+- Baixa sobrecarga no sistema
+
+### Pontos negativos:
+- Pode causar **alto tempo de espera médio**, principalmente quando há **processos curtos atrás de processos longos** (fenômeno conhecido como **convoy effect**).
+
+Esse exemplo ajuda a visualizar como o FIFO funciona na prática, e mostra porque algoritmos mais sofisticados (como SJF ou Round Robin) são usados em cenários onde a eficiência e a justiça de tempo de resposta são mais críticas.
+
+
 
 ## Como executar o projeto:
 
