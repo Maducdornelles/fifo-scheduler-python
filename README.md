@@ -23,4 +23,21 @@ Este projeto simula o algoritmo de escalonamento de processos FIFO (First In, Fi
     python fifo.py
     ```
 
-## REFERENCIAS --------------
+## REFERENCIAS 
+Aqui estão alguns repositórios no GitHub com implementações e exemplos do algoritmo de escalonamento **FIFO (First-In, First-Out)**:
+
+- [**anubha-paliwal / Operating-System-Scheduling-Algorithms** - FCFS.py](https://github.com/anubha-paliwal/Operating-System-Scheduling-Algorithms/blob/master/FCFS.py)  
+Repositório com implementações de vários algoritmos de escalonamento. O arquivo `FCFS.py` traz uma implementação simples e direta do FIFO.
+
+- [**TheAlgorithms / Python** - fcfs_scheduling.py](https://github.com/TheAlgorithms/Python/blob/master/operating_system/fcfs_scheduling.py)  
+Repositório com várias implementações de algoritmos em Python. A pasta `operating_system` contém o arquivo `fcfs_scheduling.py`, com código de escalonamento FIFO.
+
+- [**rohithasrk / CPU-Scheduling-Algorithms** - fcfs.py](https://github.com/rohithasrk/CPU-Scheduling-Algorithms/blob/master/fcfs.py)  
+Repositório dedicado apenas a algoritmos de escalonamento de CPU, com código bem separado para o FIFO.
+
+- [**dhanrajdc7 / Operating-System-CPU-Scheduling-Algo** - FCFS.py](https://github.com/dhanrajdc7/Operating-System-CPU-Scheduling-Algo/blob/master/FCFS.py)  
+Outro repositório focado em algoritmos de escalonamento, com implementação bem comentada do FCFS.
+
+- [**shivanshugarg12800 / CPU_Scheduling_Algorithms** - fcfs.py](https://github.com/shivanshugarg12800/CPU_Scheduling_Algorithms/blob/main/fcfs.py)  
+Implementação simples e didática de FIFO (FCFS), adequada para estudos iniciais.
+
