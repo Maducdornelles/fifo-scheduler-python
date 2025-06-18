@@ -61,10 +61,7 @@ No entanto, pode gerar problemas de **injustiça para processos menores**, como 
 
 ### Pontos negativos:
 - Pode causar **alto tempo de espera médio**, principalmente quando há **processos curtos atrás de processos longos** (fenômeno conhecido como **convoy effect**).
-
-Esse exemplo ajuda a visualizar como o FIFO funciona na prática, e mostra porque algoritmos mais sofisticados (como SJF ou Round Robin) são usados em cenários onde a eficiência e a justiça de tempo de resposta são mais críticas.
-
-
+---
 
 ## Como executar o projeto:
 
