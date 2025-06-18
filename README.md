@@ -7,9 +7,8 @@ Gabriela Lenz, Gustavo Rampanelli, Isadora Aguirre, Maria Eduarda Carvalho e Pab
 ## Descrição do Projeto
 Este projeto simula o algoritmo de escalonamento de processos FIFO (First In, First Out), também conhecido como FCFS (First-Come, First-Served), um algoritmo simples onde o primeiro processo que chega é o primeiro a ser executado. O objetivo é calcular o tempo de execução de cada processo, considerando o tempo de espera e o tempo de turnaround, e exibir as métricas relevantes.
 
-## ESPAÇO PARA O VÍDEO YT -------------
+## ESPAÇO PARA O VÍDEO YT/DRIVE -------------
 
-## ANALISE DOS RESULTADOS 
 ## Contexto do Código
 
 O código implementa o algoritmo de escalonamento **FIFO (First-In, First-Out)** utilizando a linguagem Python.  
@@ -63,7 +62,7 @@ No entanto, pode gerar problemas de **injustiça para processos menores**, como 
 - Pode causar **alto tempo de espera médio**, principalmente quando há **processos curtos atrás de processos longos** (fenômeno conhecido como **convoy effect**).
 ---
 
-## Como executar o projeto:
+## Como executar o projeto
 
 1. Clone e acesse o repositório:
     ```bash
@@ -75,7 +74,7 @@ No entanto, pode gerar problemas de **injustiça para processos menores**, como 
     python fifo.py
     ```
 
-## REFERENCIAS 
+## Referências
 Aqui estão alguns repositórios no GitHub com implementações e exemplos do algoritmo de escalonamento **FIFO (First-In, First-Out)**:
 
 - [**anubha-paliwal / Operating-System-Scheduling-Algorithms** - FCFS.py](https://github.com/anubha-paliwal/Operating-System-Scheduling-Algorithms/blob/master/FCFS.py)  
