@@ -1,6 +1,3 @@
-# FIFO - First Come, First Served
-# Simulação simples de escalonamento de processos
-
 # Lista de processos com tempo de chegada e duração
 processos = [
     {"id": "P1", "chegada": 0, "duracao": 4},
