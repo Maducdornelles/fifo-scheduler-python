@@ -7,7 +7,9 @@ Gabriela Lenz, Gustavo Rampanelli, Isadora Aguirre, Maria Eduarda Carvalho e Pab
 ## Descrição do Projeto
 Este projeto simula o algoritmo de escalonamento de processos FIFO (First In, First Out), também conhecido como FCFS (First-Come, First-Served), um algoritmo simples onde o primeiro processo que chega é o primeiro a ser executado. O objetivo é calcular o tempo de execução de cada processo, considerando o tempo de espera e o tempo de turnaround, e exibir as métricas relevantes.
 
-## Vídeo da apresentação: ![FIFO](https://github.com/user-attachments/assets/f26eb83c-48f4-4b9c-a646-5ac4af96d95a)
+## Vídeo da apresentação: 
+
+![capa](https://github.com/user-attachments/assets/2fadb19b-d77a-4136-9941-355efda1c129)
 
 ---
 
