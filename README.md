@@ -9,7 +9,7 @@ Este projeto simula o algoritmo de escalonamento de processos FIFO (First In, Fi
 
 ## Vídeo da apresentação: 
 
-![capa](https://github.com/user-attachments/assets/2fadb19b-d77a-4136-9941-355efda1c129)
+[![Apresentação](https://github.com/user-attachments/assets/24b66069-71df-470b-8c5e-d1686e65c800)](https://www.youtube.com/watch?v=kG27uw409-M)
 
 ---
 
